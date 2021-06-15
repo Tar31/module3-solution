@@ -1,0 +1,148 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Helvetica', sans-serif;
+  border-radius: 0;
+  border: 0;
+  padding:0;
+  margin:0;
+}
+
+header
+{ background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  padding:0;
+  margin:0;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  padding:0;
+  margin:0;
+}
+
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Times New Roman', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0px;
+
+  padding-bottom:25px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+h2
+{
+  color:black;
+  margin-top:-15px;
+}
+
+
+@media (max-width: 767px) {
+  .col-xs-12{
+    width:auto;
+    background-color:blue;
+    height:1000px;
+     margin:10px 10px 10px 10px;
+  }
+  .visible-xs
+  {
+    background-color:pink;
+  width:auto;
+  overflow:none;
+  padding:0;
+  height:100%;
+  margin:0 ;
+  padding:0 0 0 0;
+
+  
+  }
+  #collapsable-nav
+{
+  background-color:pink;
+  border:2px;
+}
+  
+}
+
+
+
+
+@media (min-width: 992px)
+{
+.hidden-md 
+{ 
+  display:none;
+  background-color:#f6b319;
+
+}
+.col-md
+{
+   width:auto;
+   background-color:blue;
+    height:1000px;
+     margin:10px 10px 10px 10px;
+}
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+.hidden-sm 
+{ 
+  display:none;
+  background-color:#f6b319;
+
+}
+.col-sm
+{
+   width:auto;
+    height:1000px;
+    background-color:blue;
+     margin:10px 10px 10px 10px;
+}
+}
+.main-container
+{
+  position:relative;
+ 
+}
+
+#chicken
+{
+  position:relative;
+  text-align:center;
+  padding:15px 15px 15px 15px;
+
+
+}
+
+#beef
+{
+  position:relative;
+  text-align:center;
+  padding:15px 15px 15px 15px;
+
+
+}
+
+#sushi
+{
+  position:relative;
+  text-align:center;
+  padding:15px 15px 15px 15px;
+
+
+}
